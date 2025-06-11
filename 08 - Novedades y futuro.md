@@ -7,6 +7,8 @@ Scikit-learn evoluciona constantemente, incorporando mejoras y nuevas funcionali
 ## 🚀 Incorporación de nuevos modelos
 
 ### 📦 HistGradientBoosting
+
+🔗 [HistGradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html)
 Una implementación eficiente y rápida de Gradient Boosting basada en histogramas.
 
 ✅ Ventajas:
@@ -29,7 +31,7 @@ Esto mejora la **interpretabilidad** y facilita el debugging.
 
 ## 📊 Nuevas herramientas de validación
 
-- `HalvingGridSearchCV` y `HalvingRandomSearchCV`: búsqueda de hiperparámetros más rápida y eficiente.
+- [`HalvingGridSearchCV`](https://scikit-learn.org/stable/whats_new/v0.24.html#id10) y [`HalvingRandomSearchCV`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.HalvingRandomSearchCV.html): búsqueda de hiperparámetros más rápida y eficiente.
 - Compatibles con procesamiento paralelo y menor uso de memoria.
 
 ---
@@ -41,7 +43,7 @@ Esto mejora la **interpretabilidad** y facilita el debugging.
 - Mejor soporte para datos tabulares complejos.
 - Integración con AutoML (Auto-sklearn).
 - Compatibilidad con entornos distribuidos (como Dask).
-- Herramientas para interpretación como SHAP y Feature Importance.
+- Herramientas para interpretación como [SHAP](https://shap.readthedocs.io/en/latest/) y Feature Importance.
 
 🔗 [Scikit-learn GitHub - Issues y roadmap](https://github.com/scikit-learn/scikit-learn/issues)
 

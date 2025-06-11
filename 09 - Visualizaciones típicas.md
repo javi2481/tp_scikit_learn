@@ -18,6 +18,8 @@ ConfusionMatrixDisplay.from_estimator(model, X_test, y_test)
 
 📌 Se usa principalmente en tareas de clasificación.
 
+![Matriz de confusión](./grafico_matriz_confusion.png)
+
 ---
 
 ## 📉 Curvas de validación
@@ -29,6 +31,8 @@ from sklearn.model_selection import validation_curve
 ```
 
 ✅ Ayuda a detectar **overfitting** (sobreajuste) y **underfitting** (subajuste).
+
+![Curva de validación](./grafico_curva_validacion.png)
 
 ---
 
