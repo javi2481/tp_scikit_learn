@@ -46,6 +46,8 @@ from sklearn.model_selection import learning_curve
 
 Se grafican resultados de entrenamiento y validación.
 
+![Curva de aprendizaje](./grafico_curva_aprendizaje.png)
+
 ---
 
 ## 🧪 ROC y AUC
@@ -59,6 +61,8 @@ RocCurveDisplay.from_estimator(model, X_test, y_test)
 ```
 
 Muestra la relación entre el **true positive rate** y el **false positive rate**.
+
+![Curva ROC binaria](./grafico_curva_roc_binaria.png)
 
 ---
 
@@ -76,6 +80,8 @@ plt.show()
 ```
 
 Modelos compatibles: árboles, RandomForest, XGBoost, etc.
+
+![Importancia de variables](./grafico_importancia_variables.png)
 
 ---
 
