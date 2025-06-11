@@ -1,29 +1,42 @@
-# 🧪 10 - Ejemplos prácticos explicados para principiantes
+# 🧪 10 - Ejemplos prácticos explicados
 
-Exploramos casos sencillos y cotidianos con Scikit-learn.  
-Cada ejemplo incluye código, contexto y una breve explicación.
+Aquí se presentan ejemplos simples usando Scikit-learn, explicados paso a paso.
 
 ---
 
-## 1. 🎓 ¿Aprobará el examen?
+## 1️⃣ 🎓 ¿Aprobará el examen?
 
-Clasificación binaria con regresión logística.
+### 🧩 Planteo del problema
+Queremos predecir si un estudiante aprobará un examen en base a su cantidad de horas de estudio.
+
+### 🛠️ Resolución
+Usamos un modelo de **regresión logística**, que predice valores binarios (0 o 1).
 
 ```python
 from sklearn.linear_model import LogisticRegression
 
-X = [[1], [2], [3], [4], [5], [6], [7]]
-y = [0, 0, 0, 1, 1, 1, 1]
+X = [[1], [2], [3], [4], [5], [6], [7]]  # Horas estudiadas
+y = [0, 0, 0, 1, 1, 1, 1]               # 0 = no aprueba, 1 = aprueba
 
+# Entrenamos el modelo
 model = LogisticRegression().fit(X, y)
+
+# Predecimos para 3.5 horas
 print(model.predict([[3.5]]))  # Resultado: [1]
 ```
 
+### ✅ Interpretación
+El modelo predice que un estudiante con 3.5 horas de estudio **aprobará**.
+
 ---
 
-## 2. 🏠 Estimar el precio de una casa
+## 2️⃣ 🏠 Precio de una casa
 
-Regresión lineal con una variable.
+### 🧩 Planteo
+Queremos estimar el precio de una casa según su tamaño en m².
+
+### 🛠️ Resolución
+Usamos **regresión lineal**, ideal para variables continuas.
 
 ```python
 from sklearn.linear_model import LinearRegression
@@ -35,11 +48,15 @@ model = LinearRegression().fit(X, y)
 print(model.predict([[75]]))  # Resultado: 150
 ```
 
+### ✅ Interpretación
+Una casa de 75 m² costaría aproximadamente **150 mil unidades** monetarias.
+
 ---
 
-## 3. 🍔 Calorías según grasa
+## 3️⃣ 🍔 Calorías según grasa
 
-Regresión para estimar calorías a partir de grasa.
+### 🧩 Planteo
+Predecir la cantidad de calorías de un alimento según su contenido graso (en gramos).
 
 ```python
 X = [[2], [5], [8], [11], [14], [17], [20]]
@@ -49,9 +66,15 @@ model = LinearRegression().fit(X, y)
 print(model.predict([[10]]))  # Resultado: 160
 ```
 
+### ✅ Interpretación
+Un alimento con 10g de grasa tendría aproximadamente **160 calorías**.
+
 ---
 
-## 4. 🚗 Precio de autos eléctricos
+## 4️⃣ 🚗 Precio de autos eléctricos
+
+### 🧩 Planteo
+Estimar el precio de autos eléctricos según la autonomía (en km).
 
 ```python
 X = [[150], [200], [250], [300], [350], [400], [450]]
@@ -61,9 +84,15 @@ model = LinearRegression().fit(X, y)
 print(model.predict([[375]]))  # Resultado: 58
 ```
 
+### ✅ Interpretación
+Un auto eléctrico con 375 km de autonomía costaría aproximadamente **58 mil USD**.
+
 ---
 
-## 5. 🎬 Duración vs puntuación de películas
+## 5️⃣ 🎬 Duración vs. puntuación de películas
+
+### 🧩 Planteo
+Ver si existe una relación entre la duración de una película y su puntuación en un sitio web.
 
 ```python
 X = [[80], [90], [100], [110], [120], [130], [140]]
@@ -73,9 +102,12 @@ model = LinearRegression().fit(X, y)
 print(model.predict([[125]]))  # Resultado: 7.3
 ```
 
+### ✅ Interpretación
+Una película de 125 minutos tendría una puntuación estimada de **7.3 puntos**.
+
 ---
 
-## ✅ Conclusión
+## 📌 Conclusión
 
-Estos ejemplos muestran cómo Scikit-learn puede aplicarse en situaciones reales y accesibles.  
-📌 Son ideales para empezar el camino en el machine learning sin complejidad innecesaria.
+Estos ejemplos muestran cómo resolver problemas reales con datos simples usando Scikit-learn.  
+Son ideales para aprender los conceptos básicos de Machine Learning en un contexto cotidiano.
