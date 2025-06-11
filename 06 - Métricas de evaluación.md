@@ -23,7 +23,9 @@ from sklearn.metrics import confusion_matrix, classification_report
 y_true = [1, 0, 1, 1, 0, 1]
 y_pred = [1, 0, 1, 0, 0, 1]
 
+# Imprimimos la matriz de confusión para ver verdaderos y falsos positivos/negativos
 print(confusion_matrix(y_true, y_pred))
+# Mostramos precisión, recall, F1-score por clase
 print(classification_report(y_true, y_pred))
 ```
 
@@ -41,6 +43,8 @@ Se usa cuando el objetivo es predecir un **valor numérico continuo**.
 ---
 
 ## 🧪 Visualizaciones complementarias
+
+🔗 [ROC and AUC - Scikit-learn](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html)
 
 - **Curvas ROC** y **AUC**  
 - **Curvas de validación y aprendizaje**
