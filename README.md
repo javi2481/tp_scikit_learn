@@ -2,19 +2,24 @@
 
 ## 📘 Carátula
 
-- **🎓 Curso:** Programacion 1  
+- **📚 Carrera:** Tecnicatura en Ciencia de Datos e Inteligencia Artificial
 - **🏫 Institución:** ISTEA
-- **📅 Año:** 2025  
+- **🎓 Curso:** Programacion 1
+- **📅 Año:** 2025
+  
 - **👨‍💻 Integrantes del grupo:**
-  - Rodolfo Berrone
-  - Francisco Haidbauer
-  - Ignacio Lattanzi
-  - Cristian Lo
-  - Ezquiel Medina
-  - Santiago Ham
-  - Agustin Della
-  - Matias Pedersen
-  - Andrea Romeo
+
+  | Nombre               | Correo electrónico                  |
+  |----------------------|-------------------------------------|
+  | Rodolfo Berrone      | rodolfo.berrone@istea.com.ar        |
+  | Agustin Della        | agustin.della@istea.com.ar          |
+  | Francisco Haidbauer  | francisco.haidbauer@istea.com.ar    |
+  | Santiago Ham         | santiago.ham@istea.com.ar           |
+  | Ignacio Lattanzi     | ignacio.lattanzi@istea.com.ar       |
+  | Cristian Lo          | cristian.lo@istea.com.ar            |
+  | Ezequiel Medina      | ezequiel.medina@istea.com.ar        |
+  | Matias Pedersen      | matias.pedersen@istea.com.ar        |
+  | Andrea Romeo         | andrea.romeo@istea.com.ar           |
 
 ---
 
