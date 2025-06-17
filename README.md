@@ -2,13 +2,19 @@
 
 ## 📘 Carátula
 
-- **🎓 Curso:** Ciencia de Datos  
-- **🏫 Institución:** [Nombre de tu institución]  
+- **🎓 Curso:** Programacion 1  
+- **🏫 Institución:** ISTEA
 - **📅 Año:** 2025  
 - **👨‍💻 Integrantes del grupo:**
-  - [Nombre 1]
-  - [Nombre 2]
-  - [Nombre 3]
+  - Rodolfo Berrone
+  - Francisco Haidbauer
+  - Ignacio Lattanzi
+  - Cristian Lo
+  - Ezquiel Medina
+  - Santiago Ham
+  - Agustin Della
+  - Matias Pedersen
+  - Andrea Romeo
 
 ---
 
